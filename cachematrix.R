@@ -63,7 +63,7 @@ cacheSolve <- function(x, ...) {
         
         data<- x$get_matrix()
         
-        matrix_inversion <- solve(data) ##%*% data
+        matrix_inversion <- solve(data) 
         
         x$set_matrix_inversion(matrix_inversion)
         
